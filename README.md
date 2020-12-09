@@ -10,3 +10,7 @@ and answering Hard decreases it. The expectation is that one will usually
 answer Good, but may occasionally answer Hard or Easy. Eventually, all cards
 should be at maximum easiness/factor (i.e., when well learned, one should
 always be answering Good or Easy).
+
+See
+https://github.com/ijgnd/anki__scheduler_apply_different_ease_basic/blob/master/reviewer_apply_different_ease.py
+for a similar add-on that uses wrap instead of a full monkey patch.
