@@ -15,7 +15,7 @@ def updateConfig(newConfig):
     global config
     config = newConfig
 
-mw.addonManager.setConfigUpdateAction(__name__, updateConfig)
+mw.addonManager.setConfigUpdatedAction(__name__, updateConfig)
 
 def myRescheduleRev(self, card: Card, ease: int, early: bool) -> None:
     # update interval
