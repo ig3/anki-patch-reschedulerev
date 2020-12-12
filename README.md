@@ -24,10 +24,17 @@ I think it is better to increase the ease factor on Good so that if a card
 is always good, the interval will gradually increase faster and faster.
 Eventually the card should become Hard, which will decrease the ease factor
 a bit. Ideally, the card will alternate between Good and Hard - around the
-limits of retention. Ideally, the interval will increase fast enough that
-the card is never Easy and never so fast that it lapses - or only
-occasionally. There are various reports that a lapse rate of about 10% 
-might be optimum for learning. Hard is just a slightly less severe lapse.
+limits of retention. The interval will increase fast enough that the card
+is never Easy but not so fast that it lapses - or only occasionally.
+There are various reports that a lapse rate of about 10% might be optimum
+for learning. Hard is just a slightly less severe lapse, so my goal is to
+alternate between Good and Hard.
+
+Increasing the ease factor on Good also helps to alleviate so called 
+['Ease Hell'](https://massimmersionapproach.com/table-of-contents/anki/low-key-anki/the-ease-factor-problem/).
+It doesn't prevent the ease factor becoming very low if a card is
+difficult, but it does help return it to a more reasonable level when the
+card becomes Good again. 
 
 I generally select Again if I fail to remember some fundamental of the
 card, or remember it incorrectly. I select Hard if I remember some minor
